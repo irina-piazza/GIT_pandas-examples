@@ -1,4 +1,4 @@
-__author__ = 'Who ?' by soros checked by renaud
+__author__ = 'Who ?' by soros checked by renaud and rechecked twice.
 
 
 
