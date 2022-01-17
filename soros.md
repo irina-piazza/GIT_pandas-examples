@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-__author__ = 'Who ?' by soros checked by Jerome
+__author__ = 'Who ?' by soros double  checked by Jerome
 =======
 __author__ = 'Who ?' by soros checked by renaud
 
