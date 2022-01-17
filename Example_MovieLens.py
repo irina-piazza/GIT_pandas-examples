@@ -1,5 +1,6 @@
-# -*- coding: utf-8 -*-
-__author__ = 'Who ?'
+# -*- coding: utf-8 -*-X
+
+__author__ = 'Renaud CROSSET-PERROTIN'
 
 import pandas as pd
 
