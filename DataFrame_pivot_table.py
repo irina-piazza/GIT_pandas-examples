@@ -6,15 +6,15 @@ import numpy as np
 
 # Load Data
 userHeader = ['user_id', 'gender', 'age', 'ocupation', 'zip']
-users = pd.read_csv('dataSet/users.txt', engine='python',
+users = pd.read_csv('dataSet/users.txt', engine='python', encoding="iso-8859-1",
                     sep='::', header=None, names=userHeader)
 
 movieHeader = ['movie_id', 'title', 'genders']
-movies = pd.read_csv('dataSet/movies.txt', engine='python',
+movies = pd.read_csv('dataSet/movies.txt', engine='python', encoding="iso-8859-1",
                      sep='::', header=None, names=movieHeader)
 
 ratingHeader = ['user_id', 'movie_id', 'rating', 'timestamp']
-ratings = pd.read_csv('dataSet/ratings.txt', engine='python',
+ratings = pd.read_csv('dataSet/ratings.txt', engine='python',encoding="iso-8859-1",
                       sep='::', header=None, names=ratingHeader)
 
 # Merge data
@@ -24,7 +24,7 @@ mergeRatings = pd.merge(pd.merge(users, ratings), movies)
 
 
 def cloneDF(df):
-    return pd.DataFrame(df.values.copy(), df.index.copy(), df.columns.copy()).convert_objects(convert_numeric=True)
+    return pd.DataFrame(df.values.copy(), df.index.copy(), df.columns.copy())#.convert_objects(convert_numeric=True)
 
 
 # Simple pivot (Groupby + avg)
