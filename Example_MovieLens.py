@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
-__author__ = 'Who ?'
+__author__ = 'Soros'
+=======
+# -*- coding: utf-8 -*-X
+
+__author__ = 'Renaud CROSSET-PERROTIN'
+>>>>>>> 917fba5b2139c55f37af9c0de7769fb4d1aef343
 
 import pandas as pd
 
